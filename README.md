@@ -65,3 +65,6 @@ echo "Tests complete."
 
 We can then pipe this into sh to return the test, with a zero exit code indicating success.
 
+## Improvements
+
+I can imagine running each scenario inside a docker container for free teardown. I can also imagine some useful reporting and a larger set of gherkin syntax support.
